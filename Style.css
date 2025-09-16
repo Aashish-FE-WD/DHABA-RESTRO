@@ -1,0 +1,57 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  background-color: #fffefe;
+  padding-top: 70px; /* space for fixed navbar */
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+}
+
+/* Hero Image */
+#hero img {
+  max-height: 600px;
+  object-fit: cover;
+}
+
+/* Section Headings */
+section h3 {
+  font-family: 'Cookie', cursive;
+  font-size: 2.5em;
+}
+
+/* Cards */
+.dish-card img {
+  height: 200px;
+    object-fit: cover;
+}
+.dish-card .btn {
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Order Section Icons */
+#orders i {
+  color: #dc3545; /* Bootstrap danger red */
+}
+
+/* Contact Form */
+#contact form {
+  border: 1px solid #eee;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9em;
+}
+footer h5 {
+  font-weight: bold;
+}

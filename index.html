@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pind Da Dhaba</title>
+  <meta name="description" content="Pind Da Dhaba - Authentic Indian food, roadside dhaba style with delicious curries, rice, and snacks. Order online now!">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="Pind-Punjabi-dhaba_01-1 logo.png">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Arima&family=Cookie&family=Dancing+Script&family=EB+Garamond:ital,wght@1,500&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="index.css">
+
+
+
+
+
+</head>
+<body>
+
+  <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top shadow">
+  <div class="container">
+    <a class="navbar-brand fw-bold fs-3" href="#">🍲 Pind Da Dhaba</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#food">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+           <li class="nav-item">
+           <a class="nav-link position-relative" href="#" data-bs-toggle="modal" data-bs-target="#cartModal">
+           <i class="fas fa-shopping-cart"></i>
+            <span id="cartCount" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">
+      0
+    </span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Hero Section -->
+  <section id="hero" class="text-center">
+    <img src="img12.jpg" class="img-fluid w-100" alt="Restaurant Banner">
+  </section>
+
+  <!-- Intro -->
+  <section id="intro" class="text-center py-5 bg-light">
+    <div class="container">
+      <h2 class="fw-bold">Count the Memories, not the <span class="text-danger">Calories</span></h2>
+      <p class="lead">Healthy, Balanced and Natural Food</p>
+      <a href="#food" class="btn btn-danger btn-lg shadow">See Full Menu</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-5">
+    <div class="container text-center">
+      <p class="fw-bold text-muted">Welcome to</p>
+      <h3 class="mb-4 text-danger">DHABBA</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            A dhaba is a roadside restaurant in the Indian subcontinent. They are on highways, generally serve local cuisine, and also serve as truck stops. Dhabas are a common feature on national and state highways.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p>
+            The massive national highways that connect the cities are lined with some remarkable dhabas that have grown in popularity over time to become the destination's top tourist attractions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="food" class="py-5 bg-light">
+    <div class="container text-center">
+      <h3 class="mb-5 text-danger">Our Dishes</h3>
+      <div class="row g-4">
+
+        <!-- Dish Card -->
+        <div class="col-sm-6 col-md-4">
+          <div class="card h-100 dish-card shadow-sm">
+            <img src="imga.jpg" class="card-img-top" alt="Paneer Masala">
+            <div class="card-body">
+              <h5 class="card-title">Paneer Masala</h5>
+              <p class="card-text text-danger fw-bold">₹180</p>
+              <p><i class="fa fa-clock me-2"></i>30 mins <br> <i class="fa fa-balance-scale me-2"></i>250g</p>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+
+         <div class="col-sm-6 col-md-4">
+          <div class="card h-100 dish-card shadow-sm">
+            <img src="imga.jpg" class="card-img-top" alt="Paneer Masala">
+            <div class="card-body">
+              <h5 class="card-title">Paneer Masala</h5>
+              <p class="card-text text-danger fw-bold">₹180</p>
+              <p><i class="fa fa-clock me-2"></i>30 mins <br> <i class="fa fa-balance-scale me-2"></i>250g</p>
+             
+              <a href="#"class="btn btn-success order-btn" data-name="Paneer Masala"  data-price="₹180" data-img="imga.jpg"> Order Now
+              </a>
+
+                          
+            </div>
+          </div>
+        </div>
+
+
+         <div class="col-sm-6 col-md-4">
+          <div class="card h-100 dish-card shadow-sm">
+            <img src="imga.jpg" class="card-img-top" alt="Paneer Masala">
+            <div class="card-body">
+              <h5 class="card-title">Paneer Masala</h5>
+              <p class="card-text text-danger fw-bold">₹180</p>
+              <p><i class="fa fa-clock me-2"></i>30 mins <br> <i class="fa fa-balance-scale me-2"></i>250g</p>
+              <a href="#"class="btn btn-success order-btn" data-name="Paneer Masala"  data-price="₹180" data-img="imga.jpg"> Order Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+         <div class="col-sm-6 col-md-4">
+          <div class="card h-100 dish-card shadow-sm">
+            <img src="imga.jpg" class="card-img-top" alt="Paneer Masala">
+            <div class="card-body">
+              <h5 class="card-title">Paneer Masala</h5>
+              <p class="card-text text-danger fw-bold">₹180</p>
+              <p><i class="fa fa-clock me-2"></i>30 mins <br> <i class="fa fa-balance-scale me-2"></i>250g</p>
+              <a href="#"class="btn btn-success order-btn" data-name="Paneer Masala"  data-price="₹180" data-img="imga.jpg"> Order Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+         <div class="col-sm-6 col-md-4">
+          <div class="card h-100 dish-card shadow-sm">
+            <img src="imga.jpg" class="card-img-top" alt="Paneer Masala">
+            <div class="card-body">
+              <h5 class="card-title">Paneer Masala</h5>
+              <p class="card-text text-danger fw-bold">₹180</p>
+              <p><i class="fa fa-clock me-2"></i>30 mins <br> <i class="fa fa-balance-scale me-2"></i>250g</p>
+              <a href="#"class="btn btn-success order-btn" data-name="Paneer Masala"  data-price="₹180" data-img="imga.jpg"> Order Now
+              </a>  
+            </div>
+          </div>
+        </div>
+
+
+         <div class="col-sm-6 col-md-4">
+          <div class="card h-100 dish-card shadow-sm">
+            <img src="imga.jpg" class="card-img-top" alt="Paneer Masala">
+            <div class="card-body">
+              <h5 class="card-title">Paneer Masala</h5>
+              <p class="card-text text-danger fw-bold">₹180</p>
+              <p><i class="fa fa-clock me-2"></i>30 mins <br> <i class="fa fa-balance-scale me-2"></i>250g</p>
+              <a href="#"class="btn btn-success order-btn" data-name="Paneer Masala"  data-price="₹180" data-img="imga.jpg"> Order Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+         <div class="col-sm-6 col-md-4">
+          <div class="card h-100 dish-card shadow-sm">
+            <img src="imga.jpg" class="card-img-top" alt="Paneer Masala">
+            <div class="card-body">
+              <h5 class="card-title">Paneer Masala</h5>
+              <p class="card-text text-danger fw-bold">₹180</p>
+              <p><i class="fa fa-clock me-2"></i>30 mins <br> <i class="fa fa-balance-scale me-2"></i>250g</p>
+              <a href="#"class="btn btn-success order-btn" data-name="Paneer Masala"  data-price="₹180" data-img="imga.jpg"> Order Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+         <div class="col-sm-6 col-md-4">
+          <div class="card h-100 dish-card shadow-sm">
+            <img src="imga.jpg" class="card-img-top" alt="Paneer Masala">
+            <div class="card-body">
+              <h5 class="card-title">Paneer Masala</h5>
+              <p class="card-text text-danger fw-bold">₹180</p>
+              <p><i class="fa fa-clock me-2"></i>30 mins <br> <i class="fa fa-balance-scale me-2"></i>250g</p>
+             <a href="#"class="btn btn-success order-btn" data-name="Paneer Masala"  data-price="₹180" data-img="imga.jpg"> Order Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+         <div class="col-sm-6 col-md-4">
+          <div class="card h-100 dish-card shadow-sm">
+            <img src="imga.jpg" class="card-img-top" alt="Paneer Masala">
+            <div class="card-body">
+              <h5 class="card-title">Paneer Masala</h5>
+              <p class="card-text text-danger fw-bold">₹180</p>
+              <p><i class="fa fa-clock me-2"></i>30 mins <br> <i class="fa fa-balance-scale me-2"></i>250g</p>
+              <a href="#"class="btn btn-success order-btn" data-name="Paneer Masala"  data-price="₹180" data-img="imga.jpg"> Order Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- How To Order -->
+  <section id="orders" class="py-5">
+    <div class="container text-center">
+      <h3 class="mb-5 text-danger">How To Order</h3>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <i class="fa fa-utensils fa-3x mb-3 text-danger"></i>
+          <h5>You Order from The Menu</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aut placeat adipisci minima pariatur.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-mug-hot fa-3x mb-3 text-danger"></i>
+          <h5>We Prepare Your Meal</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aut placeat adipisci minima pariatur.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fa fa-truck fa-3x mb-3 text-danger"></i>
+          <h5>We Deliver</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aut placeat adipisci minima pariatur.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+    <!-- Contact Section -->
+<section id="contact" class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h3 class="text-danger">Contact Us</h3>
+      <p class="text-muted">We’d love to hear from you! Fill out the form below and we’ll get in touch soon.</p>
+    </div>
+    
+    <div class="row justify-content-center">
+      <!-- Contact Form -->
+      <div class="col-md-6">
+        <form class="p-4 shadow rounded bg-white">
+          <div class="mb-3">
+            <label for="name" class="form-label fw-bold">Your Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label fw-bold">Email Address</label>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label fw-bold">Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Type your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-danger w-100">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-5 mt-4 mt-md-0 ps-md-5">
+        <h5 class="fw-bold mb-3">Get in Touch</h5>
+        <p><i class="fas fa-map-marker-alt text-danger me-2"></i> NH-27 Highway, Aburoad, Rajasthan, India</p>
+        <p><i class="fas fa-phone text-danger me-2"></i> +91 98765 43210</p>
+        <p><i class="fas fa-envelope text-danger me-2"></i> contact@pinddadhaba.com</p>
+        <p><i class="fas fa-clock text-danger me-2"></i> Open 24 Hours</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+   <!-- Footer -->
+<footer class="bg-dark text-light pt-4 mt-auto">
+  <div class="container">
+    <div class="row">
+
+      <!-- About -->
+      <div class="col-md-4 mb-3">
+        <h5 class="text-warning">About Us</h5>
+        <p class="small">
+          Welcome to <b>Foodies Hub</b>, where we serve fresh, tasty, and hygienic food 
+          made with love. Order online and enjoy at home!
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-3">
+        <h5 class="text-warning">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#home" class="text-light text-decoration-none">Home</a></li>
+          <li><a href="#food" class="text-light text-decoration-none">Menu</a></li>
+          <li><a href="#contact" class="text-light text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-4 mb-3">
+        <h5 class="text-warning">Contact Us</h5>
+        <p class="small mb-1"><i class="fa fa-map-marker me-2"></i>Aburoad, Rajasthan</p>
+        <p class="small mb-1"><i class="fa fa-phone me-2"></i>+91 98765 43210</p>
+        <p class="small"><i class="fa fa-envelope me-2"></i>info@foodieshub.com</p>
+
+        <!-- Social Icons -->
+        <div class="mb-3">
+          <a href="#" class="btn btn-outline-light btn-sm me-2"><i class="fa fa-facebook"></i></a>
+          <a href="#" class="btn btn-outline-light btn-sm me-2"><i class="fa fa-instagram"></i></a>
+          <a href="#" class="btn btn-outline-light btn-sm"><i class="fa fa-twitter"></i></a>
+        </div>
+
+        <!-- Back to Top Button -->
+        <button onclick="scrollToTop()" class="btn btn-warning btn-sm">
+          ↑ Back to Top
+        </button>
+      </div>
+
+    </div>
+    <hr class="border-light">
+   
+  </div>
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2025 Pind Da Dhaba | All Rights Reserved</p>
+  </footer>
+
+</footer>
+
+<!-- Smooth Scroll Script -->
+<script>
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+</script>
+
+  
+
+  
+        <!-- Cart Modal -->
+<div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="cartModalLabel">Your Cart</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <div id="cartItems"></div>
+        <hr>
+        <h5 class="text-end">Total: <span id="cartTotal">₹0</span></h5>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-success w-100">Checkout</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="script.js"></script>
+
+
+  
+
+
+           <script>
+  let cart = [];
+
+  // Order Now buttons → open modal
+  document.querySelectorAll('.order-btn').forEach(button => {
+    button.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      const name = this.getAttribute('data-name');
+      const price = parseInt(this.getAttribute('data-price').replace("₹", ""));
+      const img = this.getAttribute('data-img');
+
+      document.getElementById('orderItemName').innerText = name;
+      document.getElementById('orderItemPrice').innerText = "₹" + price;
+      document.getElementById('orderItemImg').src = img;
+
+      // Store temp item
+      document.getElementById('qty').value = 1;
+      document.getElementById('qty').setAttribute("data-name", name);
+      document.getElementById('qty').setAttribute("data-price", price);
+
+      new bootstrap.Modal(document.getElementById('orderModal')).show();
+    });
+  });
+
+  // Add to Cart button inside modal
+  document.querySelector('#orderModal .btn-success').addEventListener('click', function () {
+    const qtyInput = document.getElementById('qty');
+    const name = qtyInput.getAttribute("data-name");
+    const price = parseInt(qtyInput.getAttribute("data-price"));
+    const qty = parseInt(qtyInput.value);
+
+    // Check if item already exists in cart
+    const existing = cart.find(item => item.name === name);
+    if (existing) {
+      existing.qty += qty;
+    } else {
+      cart.push({ name, price, qty });
+    }
+
+    updateCart();
+    bootstrap.Modal.getInstance(document.getElementById('orderModal')).hide();
+  });
+
+  // Update Cart UI
+  function updateCart() {
+    const cartItemsDiv = document.getElementById('cartItems');
+    const cartCount = document.getElementById('cartCount');
+    const cartTotal = document.getElementById('cartTotal');
+
+    cartItemsDiv.innerHTML = "";
+    let total = 0, count = 0;
+
+    cart.forEach(item => {
+      total += item.price * item.qty;
+      count += item.qty;
+
+      cartItemsDiv.innerHTML += `
+        <div class="d-flex justify-content-between align-items-center mb-2 border-bottom pb-2">
+          <div>
+            <h6 class="mb-0">${item.name}</h6>
+            <small>₹${item.price} x ${item.qty}</small>
+          </div>
+          <strong>₹${item.price * item.qty}</strong>
+        </div>
+      `;
+    });
+
+    cartCount.innerText = count;
+    cartTotal.innerText = "₹" + total;
+  }
+</script>
+
+</body>
+</html>
+
